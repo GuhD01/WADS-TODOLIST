@@ -613,3 +613,31 @@ animation: scaleUp 0.3s ease-in-out;
     background-position: 180px;
   }
 }
+
+.label-black {
+  color: black;
+}
+
+.label-white {
+  color: white;
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.default-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white; 
+}
